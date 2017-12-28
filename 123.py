@@ -1,15 +1,6 @@
-from gevent import monkey; monkey.patch_all()
-import gevent
-import urllib2
+import requests
 
-def f(url):
-    print('GET: %s' % url)
-    resp = urllib2.urlopen(url)
-    data = resp.read()
-    print('%d bytes received from %s.' % (len(data), url))
-
-gevent.joinall([
-        gevent.spawn(f, 'https://www.python.org/'),
-        gevent.spawn(f, 'https://www.yahoo.com/'),
-        gevent.spawn(f, 'https://github.com/'),
-])
+url = 'http://www.baidu.com/'
+proxies = {"http":"http://112.114.95.179:8118"}
+a = requests.post(url,proxies = proxies)
+print(a)
