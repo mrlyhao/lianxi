@@ -59,7 +59,7 @@ def getProxies():
         for j in range(len(ip_addrs)):
             ip ="http://" + ip_addrs[j] + ":" + port[j]
             init_proxies.append(ip)#输出爬取数据
-        time.sleep(1)
+        time.sleep(0.5)
     print(init_proxies)
     return init_proxies
 
@@ -68,7 +68,7 @@ def testProxy(currip):#判断爬取的代理是否有用
     url = 'http://www.baidu.com/'
     proxies = {"http":currip}
     try:
-        requests.post(url,proxies=proxies,timeout = 5)
+        requests.post(url,proxies=proxies,timeout = 3)
         tmp_proxies.append(currip)
     except:
         print('connect failed')
@@ -95,3 +95,4 @@ if __name__ =='__main__':#保存有效IP到本地
     with open('ip.txt','w') as f:
         a = str(proxy_addrs)
         f.write(a)
+    print('DONE')
