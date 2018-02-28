@@ -13,4 +13,4 @@
 ### * 有道翻译输入查询词，并爬取结果 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E6%9C%89%E9%81%93%E7%BF%BB%E8%AF%91%E6%8F%90%E4%BA%A4.py)
 ### * 简单爬取今日头条 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E7%88%AC%E5%8F%96%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1.py)和今日头条美女图 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E7%88%AC%E5%8F%96%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%E7%BE%8E%E5%A5%B3%E5%9B%BE.py)
 ### * 使用selenium爬取空间说说 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E7%88%AC%E5%8F%96%E5%A5%BD%E5%8F%8B%E7%A9%BA%E9%97%B4%E8%AF%B4%E8%AF%B4.py)
-### * 爬取微博热搜榜，清楚干扰代码后，转换成中文 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E7%88%AC%E5%8F%96%E5%BE%AE%E5%8D%9A%E7%83%AD%E6%90%9C%E6%A6%9C.py)
+### * 爬取微博热搜榜，清除干扰代码后，转换成中文 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E7%88%AC%E5%8F%96%E5%BE%AE%E5%8D%9A%E7%83%AD%E6%90%9C%E6%A6%9C.py)
