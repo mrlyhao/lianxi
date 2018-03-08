@@ -2,7 +2,7 @@
 
 ### * 使用scrapy 批量采集MM图片 [点击查看](https://github.com/mrlyhao/mmscrapy)
 ### * 使用scrapy爬取拉勾网职位信息，并异步保存在mysql中[点击查看](https://github.com/mrlyhao/bole/tree/master/bole)
-### * 使用Windows为slave，linux为master下载拉勾。[点击下载](https://github.com/mrlyhao/lagou_redis)
+### * 使用scrapy-redis爬取拉勾，Windows为slave，linux为master。[点击下载](https://github.com/mrlyhao/lagou_redis)
 
 ### * 使用beautifulsoup 批量抓取MM照片，[点击查看](https://github.com/mrlyhao/lianxi/blob/master/mm%E7%85%A7%E7%89%87%E6%89%B9%E9%87%8F%E7%88%AC%E5%8F%96.py)
 ### * 采集后台数据，分析每本书的情况 [点击查看](https://github.com/mrlyhao/lianxi/blob/master/%E4%B9%A6%E4%B8%9B%E5%90%8E%E5%8F%B0%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.py)
